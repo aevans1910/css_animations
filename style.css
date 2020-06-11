@@ -69,6 +69,7 @@
     height: 100px;
     width: 100px;
     border: solid black 1px;
+    transition: 300ms;
 }
 
 .hamburger > :first-child {
@@ -76,6 +77,7 @@
     width: 65px;
     background-color: black;
     transform: translate(17px, -15px);
+    transition: 300ms;
 }
 
 .hamburger > :nth-child(2) {
@@ -90,5 +92,149 @@
     width: 65px;
     background-color: black;
     transform: translate(17px, 15px);
+    transition: 300ms;
 }
 
+.hamburger:hover {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.hamburger:hover > :first-child{
+    height: 10px;
+    width: 65px;
+    background-color: white;
+    transform: translate(17px, 10px) rotate(45deg);
+    z-index: 1;
+}
+
+.hamburger:hover > :nth-child(2) {
+    height: 10px;
+    width: 65px;
+}
+
+.hamburger:hover > :nth-child(3) {
+    height: 10px;
+    width: 65px;
+    background-color: white;
+    transform: translate(17px, -10px) rotate(315deg);
+}
+
+.arrow {
+    height: 100px;
+    width: 100px;
+    border: solid black 1px;
+    transition: 300ms;
+}
+
+.arrow > :first-child {
+    height: 10px;
+    width: 65px;
+    background-color: black;
+    transform: translate(17px, -15px);
+    transition: 300ms;
+}
+
+.arrow > :nth-child(2) {
+    height: 10px;
+    width: 65px;
+    background-color: black;
+    transform: translate(17px, 0px);
+    transition: 300ms
+}
+
+.arrow > :nth-child(3) {
+    height: 10px;
+    width: 65px;
+    background-color: black;
+    transform: translate(17px, 15px);
+    transition: 300ms;
+}
+
+.arrow:hover {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.arrow:hover > :first-child {
+    height: 10px;
+    width: 55px;
+    background-color: white;
+    transform: translate(8px, -6px)  rotate(315deg);
+}
+
+.arrow:hover > :nth-child(2) {
+    height: 10px;
+    width: 65px;
+    background-color: white;
+    transform: translate(17px, 0px);
+}
+
+.arrow:hover > :nth-child(3) {
+    height: 10px;
+    width: 55px;
+    background-color: white;
+    transform: translate(8px, 6px) rotate(45deg);
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border: solid black 1px;
+    transition: 300ms;
+}
+
+.circle > :first-child {
+    height: 10px;
+    width: 65px;
+    background-color: black;
+    transform: translate(17px, -15px);
+    transition: 300ms;
+}
+
+.circle > :nth-child(2) {
+    height: 10px;
+    width: 65px;
+    background-color: black;
+    transform: translate(17px, 0px);
+    transition: 300ms
+}
+
+.circle > :nth-child(3) {
+    height: 10px;
+    width: 65px;
+    background-color: black;
+    transform: translate(17px, 15px);
+    transition: 300ms;
+}
+
+.circle:hover {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.circle:hover > :first-child {
+    height: 10px;
+    width: 50px;
+    background-color: white;
+    transform: translate(25px, 45px) rotate(45deg);
+    z-index: 1;
+}
+
+.circle:hover > :nth-child(2) {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    border: solid white 10px;
+    transform: translate(7px, 0px);
+}
+
+.circle:hover > :nth-child(3) {
+    height: 10px;
+    width: 50px;
+    background-color: white;
+    transform: translate(25px, -45px) rotate(315deg);
+}
