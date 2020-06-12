@@ -238,3 +238,164 @@
     background-color: white;
     transform: translate(25px, -45px) rotate(315deg);
 }
+
+.domo-kitten {
+    height: 250px;
+    width: 200px;
+    border: solid black 1px;
+    position: relative;
+    overflow: hidden;
+}
+
+.domo-kitten > img {
+    width: 420px;
+    position: absolute;
+    left: -110px;
+    top: -40px;
+    transition: 1000ms;
+}
+
+.domo-kitten:hover > img {
+    width: 600px;
+    position: absolute;
+    left: -200px;
+    top: -100px;
+    transform: rotate(25deg);
+}
+
+.domo-kitten > .Div {
+    width: 160px;
+    height: 40px;
+    background-color: whitesmoke;
+    transform: translate(250px, 80px);
+    z-index: 1;
+    transition: 1000ms;
+}
+
+.domo-kitten > .Div > h1 {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    transform: translate(-10px, -43px);
+    transition: 1000ms;
+}
+
+.domo-kitten > .Div > div {
+    width: 0;
+    height: 0;
+    border-top: 20px solid whitesmoke;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid whitesmoke;
+    transform: translate(-20px, 0px);
+    transition: 1000ms;
+}
+
+.domo-kitten:hover > .Div {
+    width: 160px;
+    height: 40px;
+    background-color: whitesmoke;
+    transform: translate(60px, 80px);
+    z-index: 1;
+    transition: 1000ms;
+}
+
+.domo-kitten:hover > .Div > h1 {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    transform: translate(-10px, -43px);
+    transition: 1000ms;
+}
+
+.domo-kitten:hover > .Div > div {
+    width: 0;
+    height: 0;
+    border-top: 20px solid whitesmoke;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid whitesmoke;
+    transform: translate(-20px, 0px);
+    transition: 1000ms;
+}
+
+
+
+.domo-kitten > .div {
+    width: 160px;
+    height: 40px;
+    background-color: whitesmoke;
+    transform: translate(60px, 120px);
+    z-index: 1;
+    transition: 1000ms;
+}
+
+.domo-kitten > .div > h1 {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    transform: translate(-10px, -43px);
+    transition: 1000ms;
+}
+
+.domo-kitten > .div > div {
+    width: 0;
+    height: 0;
+    border-top: 20px solid whitesmoke;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid whitesmoke;
+    transform: translate(-20px, 0px);
+    transition: 1000ms;
+}
+
+.domo-kitten:hover > .div {
+    width: 160px;
+    height: 40px;
+    background-color: whitesmoke;
+    transform: translate(250px, 120px);
+    z-index: 1;
+    transition: 1000ms;
+}
+
+.domo-kitten:hover > .div > h1 {
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+    transform: translate(-10px, -43px);
+    transition: 1000ms;
+}
+
+.domo-kitten:hover > .div > div {
+    width: 0;
+    height: 0;
+    border-top: 20px solid whitesmoke;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid whitesmoke;
+    transform: translate(-20px, 0px);
+    transition: 1000ms;
+}
+
+.domo-kitten > .domo-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #f26b61;
+    z-index: 1;
+    transform: translate(-85px, -185px);
+    transition: 1000ms;
+}
+
+.domo-kitten > .domo-circle > p {
+    font-size: 23px;
+    font-family: sans-serif;
+    text-align: center;
+    color: whitesmoke;
+    transform: translate(0px, 15px)
+}
+
+.domo-kitten:hover > .domo-circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #f26b61;
+    z-index: 1;
+    transform: translate(-15px, -110px);
+}
